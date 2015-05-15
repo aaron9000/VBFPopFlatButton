@@ -332,10 +332,10 @@
             self.thirdSegment.opacity = 0.0;
             [self.firstSegment moveToState:doubleSegmentBackSlashState45 animated:self.animateToStartPosition];
             [self.secondSegment moveToState:doubleSegmentDownArrow animated:self.animateToStartPosition];
-            firstOriginPoint.y 	+= self.bounds.size.width/6;
-            secondOriginPoint.y += self.bounds.size.width/2;
-            firstOriginPoint.x  += self.bounds.size.width * 0.19;
-            secondOriginPoint.x -= self.bounds.size.width * 0.14;
+            firstOriginPoint.y  += self.bounds.size.width * 0.055;
+            secondOriginPoint.y += self.bounds.size.width * 0.395;
+            firstOriginPoint.x  += self.bounds.size.width * 0.135;
+            secondOriginPoint.x -= self.bounds.size.width * 0.189;
             break;
         case buttonRewindType:
             [self.firstSegment moveToState:doubleSegmentLessThanState animated:self.animateToStartPosition];
